@@ -1,0 +1,58 @@
+# ---------------------------------------------------------------------------
+# Data: downloaded archives and intermediate files
+# Everything here is re-created by `python src/run_all.py` and must not be
+# committed. Current size of data/ is ~240 MB.
+# ---------------------------------------------------------------------------
+data/raw/
+data/processed/
+*.dly
+*.parquet
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.gz
+
+# ---------------------------------------------------------------------------
+# Python build artifacts and caches
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.ipynb_checkpoints/
+
+# Compiled extensions
+*.o
+*.so
+*.pyd
+*.dll
+*.exe
+
+# ---------------------------------------------------------------------------
+# Logs, temporary files, local caches
+# ---------------------------------------------------------------------------
+*.log
+*.tmp
+*.bak
+.cache/
+
+# ---------------------------------------------------------------------------
+# Editors and operating systems
+# ---------------------------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
