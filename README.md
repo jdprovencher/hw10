@@ -6,7 +6,9 @@ Connecticut, Rhode Island, Massachusetts, Vermont, New Hampshire and Maine.
 
 Full findings: **[output/REPORT.md](output/REPORT.md)**
 
-Web report: open **[webpage/index.html](webpage/index.html)** in a browser (no server needed).
+Live site: **<https://jdprovencher.github.io/hw10/>**
+
+Web report source: open **[webpage/index.html](webpage/index.html)** in a browser (no server needed).
 
 ## Quick start
 
@@ -60,6 +62,9 @@ No server or build step is needed — open `webpage/index.html` directly from di
 The page includes an interactive annual temperature chart (mean / max / min / range),
 decade and state tables, the full indicator comparison, robustness checks, and links to
 download the underlying CSVs.
+
+The live site is published by `.github/workflows/pages.yml`, which uploads `webpage/`
+as a GitHub Pages artifact on every push that changes it.
 
 ## Data source
 
