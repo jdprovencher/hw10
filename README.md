@@ -6,6 +6,8 @@ Connecticut, Rhode Island, Massachusetts, Vermont, New Hampshire and Maine.
 
 Full findings: **[output/REPORT.md](output/REPORT.md)**
 
+Web report: open **[webpage/index.html](webpage/index.html)** in a browser (no server needed).
+
 ## Quick start
 
 ```powershell
@@ -40,11 +42,24 @@ src/01_download.py
 src/02_parse.py
 src/03_analyze.py
 src/04_plots.py
+src/05_build_web.py
 src/run_all.py
 output/REPORT.md     the write-up
 output/figures/      fig1 … fig7 (PNG)
 output/tables/       all result CSVs
+webpage/index.html   the web report (self-contained, opens from disk)
 ```
+
+## Web report
+
+`webpage/` is a self-contained report site built from the analysis outputs by
+`src/05_build_web.py`. It copies the figures and selected CSVs into `webpage/assets/`
+and writes `assets/data.js`, so the charts and tables always match the pipeline run.
+No server or build step is needed — open `webpage/index.html` directly from disk.
+
+The page includes an interactive annual temperature chart (mean / max / min / range),
+decade and state tables, the full indicator comparison, robustness checks, and links to
+download the underlying CSVs.
 
 ## Data source
 

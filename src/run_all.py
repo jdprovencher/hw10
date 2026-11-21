@@ -10,6 +10,7 @@ STEPS = [
     "02_parse.py",
     "03_analyze.py",
     "04_plots.py",
+    "05_build_web.py",
 ]
 
 here = Path(__file__).resolve().parent
@@ -20,4 +21,4 @@ for step in STEPS:
     if result.returncode != 0:
         sys.exit(f"Step {step} failed with exit code {result.returncode}")
 
-print("\nDone. See output/REPORT.md, output/tables/ and output/figures/")
+print("\nDone. See output/REPORT.md, output/tables/, output/figures/ and webpage/index.html")

@@ -1,0 +1,580 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>New England climate: 1941–2000 vs 2001–2020 | GHCNd report</title>
+  <meta name="description" content="A station-level comparison of New England climate across the last six decades of the 20th century and the first two decades of the 21st, built from NOAA GHCNd daily data.">
+  <meta name="color-scheme" content="light">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2316222c'/%3E%3Cpath d='M16 6v14' stroke='%23f6f3ec' stroke-width='3' stroke-linecap='round'/%3E%3Ccircle cx='16' cy='24' r='5' fill='%23b8432c'/%3E%3C/svg%3E">
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="#top">New England climate <span>GHCNd · 1941–2020</span></a>
+      <nav class="nav" aria-label="Sections">
+        <a href="#overview">Overview</a>
+        <a href="#temperature">Temperature</a>
+        <a href="#extremes">Extremes</a>
+        <a href="#water">Water</a>
+        <a href="#geography">Geography</a>
+        <a href="#numbers">All numbers</a>
+        <a href="#methods">Methods</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Six states · 27 long-record stations · 80 years</p>
+      <h1>Warmer nights, longer summers, <em>wetter years</em></h1>
+      <p class="deck">
+        A station-level comparison of New England's climate across the last six decades
+        of the 20th century and the first two decades of the 21st — the same stations,
+        the same methods, two different eras.
+      </p>
+      <div class="hero-meta">
+        <span><strong>1941–2000</strong> vs <strong>2001–2020</strong></span>
+        <span class="dot" aria-hidden="true"></span>
+        <span>Baseline 1961–1990</span>
+        <span class="dot" aria-hidden="true"></span>
+        <span>NOAA GHCNd daily data</span>
+        <span class="dot" aria-hidden="true"></span>
+        <span>Updated 20 Nov 2026</span>
+      </div>
+
+      <div class="stats" aria-label="Headline changes">
+        <div class="stat">
+          <span class="stat-value up">+0.62<span class="unit"> °C</span></span>
+          <span class="stat-label">warmer annual mean</span>
+          <span class="stat-note">night minimums +0.90 °C</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value up">+14.7<span class="unit"> days</span></span>
+          <span class="stat-label">longer growing season</span>
+          <span class="stat-note">all 27 stations lengthened</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value up">+120<span class="unit"> mm</span></span>
+          <span class="stat-label">more precipitation a year</span>
+          <span class="stat-note">+11 %, all 43 stations</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value down">−7.0<span class="unit"> days</span></span>
+          <span class="stat-label">fewer frost days</span>
+          <span class="stat-note">159.5 → 152.5 per year</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main id="main" class="wrap">
+
+    <!-- 01 -------------------------------------------------------------- -->
+    <section class="section" id="overview">
+      <div class="section-head">
+        <div class="section-num">01</div>
+        <div>
+          <h2>The short version</h2>
+          <p class="section-intro">
+            New England warmed by about six-tenths of a degree between the two eras,
+            but the change is not spread evenly across the day, the year or the map.
+          </p>
+        </div>
+      </div>
+
+      <div class="prose">
+        <p class="lede">
+          The first two decades of the 21st century averaged <strong>8.07 °C</strong>,
+          compared with <strong>7.44 °C</strong> for 1941–2000 — a <strong>+0.62 °C</strong>
+          shift. Across the full 80-year record the trend is <strong>+0.096 °C per decade</strong>,
+          and the 2010s were the warmest decade in the dataset (+0.96 °C above the 1961–1990
+          baseline), while the 1960s were the coldest (−0.18 °C).
+        </p>
+        <p>
+          The warming is lopsided. Minimum temperatures rose <strong>0.90 °C</strong> but
+          maximum temperatures only <strong>0.36 °C</strong>, narrowing the average daily
+          range by half a degree. Winter and autumn warmed more than spring, December and
+          September warmed far more than March, and the frost-free season gained about
+          <strong>two weeks</strong>. Precipitation rose at every station, with the largest
+          relative increase in the heaviest events.
+        </p>
+        <p>
+          Twenty of 27 temperature stations warmed; 18 of those trends are statistically
+          significant. The signal is strongest along the southern coast and weakest in
+          interior Vermont — a pattern consistent with warming nights and a shorter cold
+          season rather than with hotter summer afternoons.
+        </p>
+      </div>
+
+      <blockquote class="pullquote">
+        The clearest signal is not hotter afternoons. It is warmer nights, a longer
+        frost-free season, and more rain arriving in heavy events.
+        <span>Headline finding</span>
+      </blockquote>
+
+      <div class="callout">
+        <h3>Why these periods?</h3>
+        <p>
+          The 20th century runs from 1901 to 2000, so its last six decades are
+          <strong>1941–2000</strong>. The 21st century's first two decades are
+          <strong>2001–2020</strong>. Both eras are compared against the 1961–1990
+          baseline, the WMO reference period that sits inside the earlier era.
+        </p>
+      </div>
+    </section>
+
+    <!-- 02 -------------------------------------------------------------- -->
+    <section class="section" id="temperature">
+      <div class="section-head">
+        <div class="section-num">02</div>
+        <div>
+          <h2>Temperature</h2>
+          <p class="section-intro">
+            Eighty years of annual anomalies, and the seasonal shape of the change.
+            Use the buttons to compare mean, maximum, minimum and daily range.
+          </p>
+        </div>
+      </div>
+
+      <div class="chart-card">
+        <div class="chart-head">
+          <div>
+            <h3>Annual temperature anomaly</h3>
+            <p class="chart-sub" id="temp-sub">Relative to the 1961–1990 average, °C</p>
+          </div>
+          <div class="segmented" role="group" aria-label="Choose a temperature series">
+            <button class="seg" type="button" data-series="tavg" aria-pressed="true">Mean</button>
+            <button class="seg" type="button" data-series="tmax" aria-pressed="false">Daily max</button>
+            <button class="seg" type="button" data-series="tmin" aria-pressed="false">Daily min</button>
+            <button class="seg" type="button" data-series="dtr" aria-pressed="false">Range</button>
+          </div>
+        </div>
+        <div class="chart-wrap" id="temp-wrap">
+          <svg id="temp-chart" viewBox="0 0 940 430" role="img"
+               aria-label="Annual temperature anomalies for New England from 1941 to 2020."></svg>
+          <div class="tooltip" id="temp-tip" hidden></div>
+        </div>
+        <p class="chart-foot" id="temp-foot">
+          Bars: individual years. Black line: 10-year running mean. Dashed lines: era
+          averages. <a href="assets/fig1_temperature_timeseries.png">Static figure (PNG)</a>
+        </p>
+      </div>
+
+      <div class="table-card">
+        <h3>Decade by decade</h3>
+        <p class="table-sub">Regional anomaly and selected indices, averaged over all reporting stations.</p>
+        <table id="decade-table">
+          <caption>Decade averages. The 1940s cover 1941–1949 only.</caption>
+          <thead>
+            <tr>
+              <th scope="col">Decade</th>
+              <th scope="col">Anomaly (°C)</th>
+              <th scope="col">Frost days</th>
+              <th scope="col">Growing season (d)</th>
+              <th scope="col">Tropical nights</th>
+              <th scope="col">Precipitation (mm)</th>
+              <th scope="col">Heavy days</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <div class="columns">
+        <div>
+          <h3>Nights are warming fastest</h3>
+          <p>
+            Minimum temperature rose <strong>0.90 °C</strong> between the eras, about
+            2.5 times the <strong>0.36 °C</strong> rise in maximum temperature. The
+            diurnal range fell <strong>0.53 °C</strong> (p &lt; 0.001). In winter, the
+            split is almost total: December–February minima warmed <strong>1.37 °C</strong>
+            while winter maxima barely moved (<strong>+0.09 °C</strong>).
+          </p>
+        </div>
+        <div>
+          <h3>Winter and autumn moved most</h3>
+          <p>
+            Seasonal warming was <strong>+1.00 °C</strong> in winter and
+            <strong>+0.71 °C</strong> in autumn, versus +0.58 °C in summer and
+            +0.26 °C in spring. December (+1.54 °C) and September (+1.33 °C) changed
+            the most of any month; March did not warm at all (−0.04 °C).
+          </p>
+        </div>
+      </div>
+
+      <figure>
+        <div class="figure-card">
+          <img src="assets/fig2_seasonal_cycle.png" width="1264" height="919"
+               alt="Line chart of monthly mean temperature for 1941–2000 and 2001–2020, with a bar panel showing the warming in each calendar month.">
+        </div>
+        <figcaption>
+          <b>Seasonal fingerprint.</b> Monthly mean temperature in the two eras (top) and
+          the difference by month (bottom). The warming is concentrated in late summer,
+          autumn and December rather than in spring or midsummer afternoons.
+        </figcaption>
+      </figure>
+
+      <figure>
+        <div class="figure-card">
+          <img src="assets/fig7_decade_boxplot.png" width="1264" height="739"
+               alt="Box plots of station-year temperature anomalies grouped by decade from the 1940s to the 2010s.">
+        </div>
+        <figcaption>
+          <b>Not just one hot year.</b> Each box shows the spread of annual anomalies across
+          stations within a decade. The median station moved above the baseline in the 1990s
+          and reached about +1 °C in the 2010s.
+        </figcaption>
+      </figure>
+    </section>
+
+    <!-- 03 -------------------------------------------------------------- -->
+    <section class="section" id="extremes">
+      <div class="section-head">
+        <div class="section-num">03</div>
+        <div>
+          <h2>Extremes and the growing season</h2>
+          <p class="section-intro">
+            The most visible consequences show up at the cold end of the distribution and
+            in the length of the frost-free season.
+          </p>
+        </div>
+      </div>
+
+      <figure>
+        <div class="figure-card">
+          <img src="assets/fig4_extremes.png" width="1407" height="950"
+               alt="Four panels showing annual frost days, growing season length, tropical nights and heavy precipitation days from 1941 to 2020, with era averages marked.">
+        </div>
+        <figcaption>
+          <b>Four indicators, 1941–2020.</b> Frost days fell by seven per year, the growing
+          season gained nearly 15 days, tropical nights roughly doubled, and heavy-precip
+          days rose by almost two per year.
+        </figcaption>
+      </figure>
+
+      <div class="prose" style="margin-top:1.6rem">
+        <ul>
+          <li><strong>Frost days:</strong> 159.5 → 152.5 per year (−7.0, p &lt; 0.001).</li>
+          <li><strong>Growing season:</strong> 142.7 → 157.3 days (+14.7, p &lt; 0.001).
+              The last spring frost arrived about 5 days earlier and the first autumn frost
+              about 9 days later. Every station lengthened its season.</li>
+          <li><strong>Tropical nights</strong> (minimum ≥ 20 °C): 5.2 → 8.5 per year
+              (+3.3), the largest relative change of any index.</li>
+          <li><strong>Summer days</strong> (maximum ≥ 25 °C): 70.7 → 76.0 (+5.3, p = 0.001).</li>
+        </ul>
+      </div>
+
+      <div class="callout cool">
+        <h3>What did not change much: daytime heat</h3>
+        <p>
+          Days at or above 30 °C rose by only about one per year (18.3 → 19.4) and the
+          change is not statistically significant (p = 0.20). Days at or above 90 °F show
+          no trend at all. Hot-day counts are dominated by rare heat waves, so they are
+          noisy — but the robust signal here is warm nights, not extreme afternoon heat.
+        </p>
+      </div>
+    </section>
+
+    <!-- 04 -------------------------------------------------------------- -->
+    <section class="section" id="water">
+      <div class="section-head">
+        <div class="section-num">04</div>
+        <div>
+          <h2>Water</h2>
+          <p class="section-intro">
+            The region is wetter, and the increase is weighted toward the heaviest events.
+          </p>
+        </div>
+      </div>
+
+      <figure>
+        <div class="figure-card">
+          <img src="assets/fig5_precipitation.png" width="1412" height="919"
+               alt="Annual precipitation totals from 1941 to 2020 with era averages, and a second panel showing the number of days with at least 25.4 millimetres of precipitation.">
+        </div>
+        <figcaption>
+          <b>Wetter, and more often very wet.</b> Annual precipitation rose from 1086 mm to
+          1206 mm, while days with at least one inch of precipitation rose from 9.7 to 11.5
+          per year.
+        </figcaption>
+      </figure>
+
+      <div class="columns">
+        <div>
+          <h3>A wetter regime</h3>
+          <p>
+            Annual precipitation increased by <strong>120 mm (+11 %)</strong>, from
+            1086 mm to 1206 mm. All 43 long-record precipitation stations recorded an
+            increase (median +124 mm), and the regional trend is
+            <strong>+25.6 mm per decade</strong> (p = 0.0005).
+          </p>
+        </div>
+        <div>
+          <h3>More of it in downpours</h3>
+          <p>
+            Wet days (≥ 1 mm) rose only 5 %, from 106.8 to 112.6 per year, while days
+            with ≥ 25.4 mm rose <strong>19 %</strong>, from 9.7 to 11.5. The wettest day
+            of the year also grew, from 66.7 mm to 71.6 mm. The extra water is arriving
+            in heavier events rather than in more drizzly days.
+          </p>
+        </div>
+      </div>
+
+      <div class="callout">
+        <h3>Read with care</h3>
+        <p>
+          Precipitation trends are the most instrument-sensitive part of this analysis.
+          Gauge changes — especially the shift from manual gauges to tipping buckets and
+          changes in wind exposure — can inflate apparent increases in heavy events.
+          The direction agrees with regional climate assessments, but the exact +11 %
+          should be checked against gridded datasets before being treated as a pure
+          climate signal.
+        </p>
+      </div>
+    </section>
+
+    <!-- 05 -------------------------------------------------------------- -->
+    <section class="section" id="geography">
+      <div class="section-head">
+        <div class="section-num">05</div>
+        <div>
+          <h2>Where the warming is strongest</h2>
+          <p class="section-intro">
+            The south coast warmed roughly three times as much as interior Vermont,
+            though small states rest on only one or two stations.
+          </p>
+        </div>
+      </div>
+
+      <div class="figure-grid">
+        <figure>
+          <div class="figure-card">
+            <img src="assets/fig3_station_deltas.png" width="1114" height="1189"
+                 alt="Horizontal bar chart of the change in annual mean temperature at each station, sorted from coolest change to warmest, coloured by state.">
+          </div>
+          <figcaption><b>Station by station.</b> Era difference in annual mean temperature,
+            coloured by state. Twenty of 27 stations warmed.</figcaption>
+        </figure>
+        <figure>
+          <div class="figure-card">
+            <img src="assets/fig6_station_map.png" width="869" height="1039"
+                 alt="Map of New England stations coloured by their 1941–2020 temperature trend in degrees Celsius per decade.">
+          </div>
+          <figcaption><b>Map view.</b> Long-term trend at each station. Coastal and southern
+            sites are darkest; interior Vermont and a few Maine sites are near zero.</figcaption>
+        </figure>
+      </div>
+
+      <div class="table-card">
+        <h3>By state</h3>
+        <p class="table-sub">Mean of the station era differences within each state.</p>
+        <table id="state-table">
+          <caption>Rhode Island and Connecticut each rest on one or two stations, so treat
+            those numbers as indicative.</caption>
+          <thead>
+            <tr>
+              <th scope="col">State</th>
+              <th scope="col">Stations</th>
+              <th scope="col">1941–2000 (°C)</th>
+              <th scope="col">2001–2020 (°C)</th>
+              <th scope="col">Change (°C)</th>
+              <th scope="col">Stations warmer</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <div class="prose" style="margin-top:1.4rem">
+        <p>
+          Southern and coastal stations warmed most: Edgartown on Martha's Vineyard
+          (+1.35 °C), Kingston, Rhode Island (+1.18 °C), Hartford (+1.18 °C) and
+          Burlington (+1.29 °C). Interior Vermont warmed least (state average +0.32 °C).
+          The gradient fits a pattern of warmer nights and fewer cold outbreaks rather
+          than stronger summer heating.
+        </p>
+        <p>
+          One station runs against the regional grain: Haverhill, Massachusetts shows a
+          significant <em>cooling</em> trend (−0.16 °C per decade). GHCNd does not correct
+          for station moves or instrument changes, so a single-site trend like this is more
+          likely to reflect a local record discontinuity than a cool island in a warming
+          region. It is a useful reminder of why the analysis uses many stations.
+        </p>
+      </div>
+    </section>
+
+    <!-- 06 -------------------------------------------------------------- -->
+    <section class="section" id="numbers">
+      <div class="section-head">
+        <div class="section-num">06</div>
+        <div>
+          <h2>Every indicator</h2>
+          <p class="section-intro">
+            The full comparison, the robustness checks, and the caveats that come with
+            station data.
+          </p>
+        </div>
+      </div>
+
+      <div class="table-card">
+        <h3>Era comparison</h3>
+        <p class="table-sub">Equal-weight station means; p-values from a Wilcoxon signed-rank
+          test on paired per-station era means.</p>
+        <table id="era-table">
+          <caption>1941–2000 versus 2001–2020, New England. “Stations increasing” is the
+            share of stations whose era-2 value is higher than in era 1.</caption>
+          <thead>
+            <tr>
+              <th scope="col">Indicator</th>
+              <th scope="col">1941–2000</th>
+              <th scope="col">2001–2020</th>
+              <th scope="col">Change</th>
+              <th scope="col">Stations increasing</th>
+              <th scope="col">p-value</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <p class="table-note">Bold changes are statistically significant at p &lt; 0.05.</p>
+      </div>
+
+      <div class="table-card">
+        <h3>Does the result depend on the station rules?</h3>
+        <p class="table-sub">Recomputing the warming with different completeness thresholds.</p>
+        <table id="robust-table">
+          <caption>Mean and median per-station change in annual mean temperature (°C).</caption>
+          <thead>
+            <tr>
+              <th scope="col">Selection rule</th>
+              <th scope="col">Stations</th>
+              <th scope="col">Mean Δ (°C)</th>
+              <th scope="col">Median Δ (°C)</th>
+              <th scope="col">Stations warmer</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <div class="callout">
+        <h3>Caveats</h3>
+        <p>
+          <strong>Not homogenized.</strong> Station moves, instrument changes and land use
+          are not corrected in GHCNd. <strong>Twenty years is a short era.</strong> The
+          difference in means is robust in sign and significance, but its size is uncertain
+          by roughly ±0.2 °C. <strong>Equal station weighting, not area weighting.</strong>
+          Coastal and low-elevation sites are over-represented relative to the land area.
+          <strong>Snowfall</strong> is noisy and shows no long-term trend.
+        </p>
+      </div>
+    </section>
+
+    <!-- 07 -------------------------------------------------------------- -->
+    <section class="section" id="methods">
+      <div class="section-head">
+        <div class="section-num">07</div>
+        <div>
+          <h2>Methods and data</h2>
+          <p class="section-intro">
+            Everything here is generated by a small, reproducible Python pipeline.
+          </p>
+        </div>
+      </div>
+
+      <dl class="kv">
+        <dt>Dataset</dt>
+        <dd>NOAA NCEI Global Historical Climatology Network daily (GHCNd),
+          version <code>3.35-upd-2026111517</code></dd>
+        <dt>Region</dt>
+        <dd>Connecticut, Rhode Island, Massachusetts, Vermont, New Hampshire, Maine</dd>
+        <dt>Stations downloaded</dt>
+        <dd><span id="count-downloaded">94</span> station files, selected from the GHCNd
+          inventory for records spanning both eras</dd>
+        <dt>Temperature stations</dt>
+        <dd><span id="count-temp">27</span>, each with ≥ 50 of 60 valid years in 1941–2000
+          and ≥ 16 of 20 in 2001–2020</dd>
+        <dt>Precipitation stations</dt>
+        <dd><span id="count-prcp">43</span> with the same rule</dd>
+        <dt>Daily completeness</dt>
+        <dd>A station-year needs ≥ 330 valid days (~90 %) to enter the analysis</dd>
+        <dt>Aggregation</dt>
+        <dd>Per-station anomalies against 1961–1990, then equal-weight station averages</dd>
+        <dt>Significance</dt>
+        <dd>Wilcoxon signed-rank test on paired station era means; OLS and Sen slopes for trends</dd>
+        <dt>Quality control</dt>
+        <dd>Values carrying a non-blank GHCNd quality flag are excluded</dd>
+      </dl>
+
+      <div class="columns" style="margin-top:2.2rem">
+        <div>
+          <h3>The pipeline</h3>
+          <ol class="prose" style="padding-left:1.1rem">
+            <li>Select candidate stations from the metadata and inventory files.</li>
+            <li>Download each station's <code>.dly</code> file (cached locally).</li>
+            <li>Parse the fixed-width records into one tidy table of 9.93 million values.</li>
+            <li>Build station-year climate indices and era statistics.</li>
+            <li>Generate figures, tables and this page.</li>
+          </ol>
+          <pre><code>pip install -r requirements.txt
+python src/run_all.py</code></pre>
+        </div>
+        <div>
+          <h3>Downloads</h3>
+          <p>
+            The derived tables behind this page are available as CSV, and the full
+            write-up is in the repository.
+          </p>
+          <div class="downloads">
+            <a href="assets/data/era_comparison.csv">Era comparison</a>
+            <a href="assets/data/region_annual.csv">Regional annual series</a>
+            <a href="assets/data/station_coverage.csv">Station coverage</a>
+            <a href="assets/data/robustness.csv">Robustness</a>
+            <a href="https://github.com/jdprovencher/hw10/blob/main/output/REPORT.md">Full report</a>
+            <a href="https://github.com/jdprovencher/hw10">Source code</a>
+          </div>
+          <p class="table-note" style="margin-top:1rem">
+            Figures are generated with matplotlib at 150 dpi and are available in
+            <code>output/figures/</code>.
+          </p>
+        </div>
+      </div>
+
+      <noscript>
+        <div class="callout">
+          <h3>JavaScript is off</h3>
+          <p>
+            The charts and data tables on this page are rendered with a small script.
+            The same results are available in the repository's
+            <a href="https://github.com/jdprovencher/hw10/blob/main/output/REPORT.md">REPORT.md</a>.
+          </p>
+        </div>
+      </noscript>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>
+        <p><strong>New England climate, 1941–2000 vs 2001–2020</strong></p>
+        <p class="foot-note">
+          Built from NOAA GHCNd station data. GHCNd is not homogenized; station moves and
+          instrument changes are not corrected.
+        </p>
+      </div>
+      <div>
+        <p class="foot-note">
+          Data: <a href="https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily">NCEI GHCNd</a><br>
+          Code: <a href="https://github.com/jdprovencher/hw10">github.com/jdprovencher/hw10</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/data.js" defer></script>
+  <script src="app.js" defer></script>
+</body>
+</html>
