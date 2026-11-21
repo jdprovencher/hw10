@@ -9,4 +9,4 @@ Now, you may be looking at the data and say precipitation has actually increased
 To answer this question, we need to actually look at the annual snowfall. The REPORT markdown file shows that according to the data we had compiled, the mean annual snowfall has actually increased from the time period of the last six decades of the 20th century (171mm) to the first two decades of the 21st century (177mm).
 
 ## The Answer
-The answer to the question in hand is no, it actually snowed more in the first two decades of the 21st century just by 6 millimeters of annual snowfall.
+The answer to the question in hand is no, it actually snowed more in the first two decades of the 21st century just by 6 millimeters of annual snowfall. But it may not appear as so since the temperature has increased over time in the last 80 years.
